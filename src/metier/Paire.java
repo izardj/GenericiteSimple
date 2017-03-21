@@ -25,5 +25,10 @@ public class Paire {
 	public void setDeuxieme(Object deuxieme) {
 		this.deuxieme = deuxieme;
 	}
+
+	@Override
+	public String toString() {
+		return "Paire [premier=" + premier + ", deuxieme=" + deuxieme + "]";
+	}
 	
 }
